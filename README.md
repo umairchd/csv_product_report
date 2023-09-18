@@ -1,6 +1,6 @@
 # csv_product_report
 
-**Product Report Generator**
+**Product Report Generator**&nbsp; 
 
 
 This is a Ruby project that includes a script and associated tests for generating a product report in JSON format from a CSV file.
@@ -9,56 +9,56 @@ The script reads a CSV file containing product data and converts it into a JSON 
 
 The project also includes unit tests to ensure the correctness of the script.
 
-**Project Structure**
+**Project Structure**&nbsp; 
 
-The project is structured as follows:
+The project is structured as follows:&nbsp; 
 
-product_report.rb: The main Ruby script that reads the CSV file, generates the JSON report, and handles potential errors.
+product_report.rb: The main Ruby script that reads the CSV file, generates the JSON report, and handles potential errors.&nbsp; 
 
-products.csv: The sample CSV file containing the product data. You can replace this file with your own CSV file or modify it as needed.
+products.csv: The sample CSV file containing the product data. You can replace this file with your own CSV file or modify it as needed.&nbsp; 
 
-product_report_spec.rb: The unit tests for the ProductReport script. These tests verify the correctness of the read_csv and generate_report methods.
+product_report_spec.rb: The unit tests for the ProductReport script. These tests verify the correctness of the read_csv and generate_report methods.&nbsp; 
 
-**Usage**
+**Usage**&nbsp; 
 
-To use the script, follow these steps:
+To use the script, follow these steps:&nbsp; 
 
-Ensure you have Ruby installed on your system.
-Clone the GitHub repository: git clone https://github.com/umairchd/csv_product_report.git
-Navigate to the project directory: cd csv_product_report
-Ensure that your CSV file is named products.csv and is placed in the project directory. Modify the file content as needed.
-Run the script: ruby product_report.rb
-The script will read the CSV file, generate a JSON report, and display the report on the console.
+Ensure you have Ruby installed on your system.&nbsp; 
+Clone the GitHub repository: git clone https://github.com/umairchd/csv_product_report.git&nbsp; 
+Navigate to the project directory: cd csv_product_report&nbsp; 
+Ensure that your CSV file is named products.csv and is placed in the project directory. Modify the file content as needed.&nbsp; 
+Run the script: ruby product_report.rb&nbsp; 
+The script will read the CSV file, generate a JSON report, and display the report on the console.&nbsp; 
 
-**Testing**
+**Testing**&nbsp; 
 
-To run the unit tests, follow these steps:
-
-
-Make sure you have the RSpec gem installed (gem install rspec) if you haven't already.
-
-Run the tests: rspec product_report_spec.rb
-
-The tests will verify that the read_csv and generate_report methods work as expected.
+To run the unit tests, follow these steps:&nbsp; 
 
 
-**Error Handling**
+Make sure you have the RSpec gem installed (gem install rspec) if you haven't already.&nbsp; 
+
+Run the tests: rspec product_report_spec.rb&nbsp; 
+
+The tests will verify that the read_csv and generate_report methods work as expected.&nbsp; 
 
 
-The script includes error handling to gracefully handle potential issues. 
-
-If the CSV file is not found, an Errno::ENOENT error is raised and an error message is displayed. 
-
-If the CSV file has an invalid format, a CSV::MalformedCSVError error is raised and an error message is displayed.
+**Error Handling**&nbsp; 
 
 
-**Dependencies**
+The script includes error handling to gracefully handle potential issues. &nbsp; 
+
+If the CSV file is not found, an Errno::ENOENT error is raised and an error message is displayed. &nbsp; 
+
+If the CSV file has an invalid format, a CSV::MalformedCSVError error is raised and an error message is displayed.&nbsp; 
 
 
-The project depends on the following Ruby gems:
+**Dependencies**&nbsp; 
 
-csv: Used for reading the CSV file.
 
-json: Used for generating the JSON report.
+The project depends on the following Ruby gems:&nbsp; 
 
-rspec: Used for testing the script.
+csv: Used for reading the CSV file.&nbsp; 
+
+json: Used for generating the JSON report.&nbsp; 
+
+rspec: Used for testing the script.&nbsp; 
