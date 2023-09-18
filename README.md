@@ -4,19 +4,14 @@
 
 
 This is a Ruby project that includes a script and associated tests for generating a product report in JSON format from a CSV file.
-
 The script reads a CSV file containing product data and converts it into a JSON report. 
-
-The project also includes unit tests to ensure the correctness of the script.
+The project also includes unit tests to ensure the correctness of the script.&nbsp; 
 
 **Project Structure**&nbsp; 
 
 The project is structured as follows:&nbsp; 
-
 product_report.rb: The main Ruby script that reads the CSV file, generates the JSON report, and handles potential errors.&nbsp; 
-
 products.csv: The sample CSV file containing the product data. You can replace this file with your own CSV file or modify it as needed.&nbsp; 
-
 product_report_spec.rb: The unit tests for the ProductReport script. These tests verify the correctness of the read_csv and generate_report methods.&nbsp; 
 
 **Usage**&nbsp; 
