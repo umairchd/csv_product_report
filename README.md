@@ -20,13 +20,16 @@ Navigate to the project directory: cd csv_product_report
 Ensure that your CSV file is named products.csv and is placed in the project directory. Modify the file content as needed.
 Run the script: ruby product_report.rb
 The script will read the CSV file, generate a JSON report, and display the report on the console.
+
 **Testing**
 To run the unit tests, follow these steps:
+
 
 Make sure you have the RSpec gem installed (gem install rspec) if you haven't already.
 Run the tests: rspec product_report_spec.rb
 The tests will verify that the read_csv and generate_report methods work as expected.
-Error Handling
+
+**Error Handling**
 The script includes error handling to gracefully handle potential issues. 
 If the CSV file is not found, an Errno::ENOENT error is raised and an error message is displayed. 
 If the CSV file has an invalid format, a CSV::MalformedCSVError error is raised and an error message is displayed.
